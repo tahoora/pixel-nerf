@@ -44,7 +44,7 @@ def extra_args(parser):
     parser.add_argument(
         "--elevation",
         type=float,
-        default=-30.0,
+        default=-60.0,
         help="Elevation angle (negative is above)",
     )
     parser.add_argument(
