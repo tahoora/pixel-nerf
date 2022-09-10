@@ -38,7 +38,7 @@ def extra_args(parser):
     parser.add_argument(
         "--num_views",
         type=int,
-        default=40,
+        default=1,
         help="Number of video frames (rotated views)",
     )
     parser.add_argument(
